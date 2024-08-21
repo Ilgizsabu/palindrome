@@ -10,3 +10,7 @@ for (let i = 0; i < palindrome.length / 2; i++) {
         break;
     }
 };
+
+if (isPalindrome) {
+    alert("Это палиндром");
+};
