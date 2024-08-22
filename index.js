@@ -5,7 +5,7 @@ let isPalindrome = true;
 
 for (let i = 0; i < palindrome.length / 2; i++) {
     if (palindrome[i] !== palindrome[palindrome.length - 1 - i]) {
-        alert('Это не палиндром');
+        alert("Это не палиндром");
         isPalindrome = false;
         break;
     }
